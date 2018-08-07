@@ -35,6 +35,10 @@ zuul:
       path: /auth/**
       serviceId: caliber-auth-service
       strip-prefix: false
+    caliber-email-service:
+      path: /caliber-email-service/**
+      serviceId: caliber-email-service
+      strip-prefix: false
 
     
 
