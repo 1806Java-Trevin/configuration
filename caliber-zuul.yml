@@ -13,32 +13,32 @@ eureka:
     service-url:
       defaultZone: ${CALIBER_EUREKA_SERVER_URL} 
       
-zuul:
-  routes:
-    training:
-      path: /training/**
-      serviceId: caliber-training-service
-      strip-prefix: false
-    evaluation:
-      path: /evaluation/**
-      serviceId: caliber-evaluation-service
-      strip-prefix: false
-    reporting:
-      path: /reporting/**
-      serviceId: caliber-reporting-service
-      strip-prefix: false
-    document:  
-      path: /document/**
-      serviceId: caliber-document-service
-      strip-prefix: false
-    auth:
-      path: /auth/**
-      serviceId: caliber-auth-service
-      strip-prefix: false
-    caliber-email-service:
-      path: /caliber-email-service/**
-      serviceId: caliber-email-service
-      strip-prefix: false
+#zuul:
+#  routes:
+#    training:
+#      path: /training/**
+#      serviceId: caliber-training-service
+#      strip-prefix: false
+#    evaluation:
+#      path: /evaluation/**
+#      serviceId: caliber-evaluation-service
+#      strip-prefix: false
+#    reporting:
+#      path: /reporting/**
+#      serviceId: caliber-reporting-service
+#      strip-prefix: false
+#    document:  
+#      path: /document/**
+#      serviceId: caliber-document-service
+#      strip-prefix: false
+#    auth:
+#      path: /auth/**
+#      serviceId: caliber-auth-service
+#      strip-prefix: false
+#    caliber-email-service:
+#      path: /caliber-email-service/**
+#      serviceId: caliber-email-service
+#      strip-prefix: false
 
     
 
