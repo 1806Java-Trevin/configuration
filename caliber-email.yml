@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:oracle:thin:@wvudatabase.czc0zuhxihvw.us-east-1.rds.amazonaws.com:1521:orcl
-    username: JuneBestBatch
-    password: p4ssw0rd
+    url: ${CALIBER_DB_URL}
+    username: ${CALIBER_DB_USER}
+    password: ${CALIBER_DB_PASS}
     driver-class-name: oracle.jdbc.driver.OracleDriver
   jpa:
     database-platform: org.hibernate.dialect.Oracle10gDialect
