@@ -8,6 +8,10 @@ security:
 info:
   component: Caliber Zuul Gateway
   
+ribbon:
+    ConnectTimeout: 10000000
+    ReadTimeout: 10000000
+  
 #eureka:
 #  client:
 #    service-url:
