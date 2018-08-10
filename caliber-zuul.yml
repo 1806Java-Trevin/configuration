@@ -12,10 +12,10 @@ ribbon:
     ConnectTimeout: 10000000
     ReadTimeout: 10000000
   
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: ${CALIBER_EUREKA_SERVER_URL} 
+eureka:
+  client:
+    service-url:
+      defaultZone: ${CALIBER_EUREKA_SERVER_URL} 
       
 #zuul:
 #  routes:
