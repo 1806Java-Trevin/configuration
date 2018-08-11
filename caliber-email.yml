@@ -14,5 +14,8 @@ eureka:
   client:
     service-url:
       defaultZone: ${CALIBER_EUREKA_SERVER_URL}
+  instance:
+    ip-address: 52.91.240.90
+    preferIpAddress: true
 server:
   port: 9001
