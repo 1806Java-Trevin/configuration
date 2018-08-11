@@ -15,7 +15,10 @@ ribbon:
 eureka:
   client:
     service-url:
-      defaultZone: ${CALIBER_EUREKA_SERVER_URL} 
+      defaultZone: ${CALIBER_EUREKA_SERVER_URL}
+  instance:
+    ip-address: 18.221.11.133
+    preferIpAddress: true
       
 #zuul:
 #  routes:
