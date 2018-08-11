@@ -17,7 +17,7 @@ eureka:
     service-url:
       defaultZone: ${CALIBER_EUREKA_SERVER_URL}
   instance:
-    ip-address: 18.221.11.133
+    ip-address: ${CALIBER_ZUUL_IP_ADDRESS}
     preferIpAddress: true
       
 #zuul:
